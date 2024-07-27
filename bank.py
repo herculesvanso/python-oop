@@ -41,7 +41,7 @@ class Account():
         
     @fund.setter
     def fund(self,value):
-        if valua < 0:
+        if value < 0:
             print("Fund doesn't admit negative value")
         else:
             self.__fund = value
